@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 5px;
+  width: 700px;
+  height: 700px;
+  background: #839aa8;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+.box:nth-child(even) {
+  background: #d3ebcd;
+}
+.box:nth-child(odd) {
+  background: #aedbce;
+}
+
+.empty {
+  background-color: #839aa8 !important;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  margin: 10px 0;
+
+  height: 105%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  height: 105%;
+  /* margin-right: 20px; */
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background: #d61c4e;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.points {
+  background: chartreuse;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d61c4e;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
